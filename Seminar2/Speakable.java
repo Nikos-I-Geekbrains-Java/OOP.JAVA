@@ -1,4 +1,4 @@
-package Seminar_2;
+package Seminar2;
 
 public interface Speakable {
     public String say ();

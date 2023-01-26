@@ -1,4 +1,4 @@
-package Seminar_2;
+package Seminar2;
 
 public class Horse extends Animal implements Runable{
 
@@ -8,12 +8,12 @@ public class Horse extends Animal implements Runable{
 
     @Override
     public String say() {
-        return "Игого";
+        return "Иго-го-го";
     }
 
     @Override
     public String toString() {
-        return "Horse " + super.toString();
+        return "Лошадь: " + super.toString();
     }
 
     @Override

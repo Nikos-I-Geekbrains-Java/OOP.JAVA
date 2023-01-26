@@ -3,7 +3,7 @@
 // а наследники собственные параметры (тип перемещения).
 
 
-package Seminar_2;
+package Seminar2;
 
 public abstract class Animal implements Speakable {
     private String name;
@@ -16,7 +16,7 @@ public abstract class Animal implements Speakable {
 
     @Override
     public String toString() {
-        return String.format("Name is %s box num : %d", this.name, this.box);
+        return String.format("зовут %s, в клетке: %d", this.name, this.box);
     }
     
     public abstract String say();

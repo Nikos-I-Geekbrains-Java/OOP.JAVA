@@ -1,8 +1,9 @@
-package Seminar_2;
+package Seminar2;
 
-public class Duck extends Animal implements Runable, Flyable{
+public class Duck extends Animal implements Runable, Flyable, Swimmable {
 
     public Duck(String name, int box) {
+
         super(name, box);
     }
 
@@ -17,9 +18,16 @@ public class Duck extends Animal implements Runable, Flyable{
     }
 
     @Override
+    public String toString() {
+        return "Утка: " + super.toString();
+    }
+
+    @Override
     public int speedOfRun() {
         return 10;
     }
 
-    
+    @Override
+    public int speedOfSwimming() {return 8;}
 }
+

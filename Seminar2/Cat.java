@@ -1,4 +1,4 @@
-package Seminar_2;
+package Seminar2;
 
 public class Cat extends Animal implements Runable{
 
@@ -15,7 +15,7 @@ public class Cat extends Animal implements Runable{
 
     @Override
     public String toString() {
-        return "Cat " + super.toString();
+        return "Кошка: " + super.toString() + ", цвет " + this.color;
     }
     @Override
     public int speedOfRun() {
